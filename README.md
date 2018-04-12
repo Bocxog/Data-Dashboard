@@ -1,2 +1,2 @@
-# Data-Dashboard-
+# Data-Dashboard
 Dashboard for processed data
