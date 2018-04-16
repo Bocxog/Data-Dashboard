@@ -57,3 +57,49 @@ typings/
 # dotenv environment variables file
 .env
 
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# compiled output
+/web-dashboard/dist
+/web-dashboard/dist-server
+/web-dashboard/tmp
+/web-dashboard/out-tsc
+
+# dependencies
+/web-dashboard/node_modules
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# misc
+/web-dashboard/.sass-cache
+/web-dashboard/connect.lock
+/web-dashboard/coverage
+/web-dashboard/libpeerconnection.log
+npm-debug.log
+yarn-error.log
+testem.log
+/typings
+
+# e2e
+/web-dashboard/e2e/*.js
+/e2e/*.map
+
+# System Files
+.DS_Store
+Thumbs.db
+
+
