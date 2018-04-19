@@ -3,14 +3,17 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
+import { GridPagesComponent } from './grid-pages/grid-pages.component';
+import { AgGridModule } from 'ag-grid-angular';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    GridPagesComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule, AgGridModule.withComponents([])
   ],
   providers: [],
   bootstrap: [AppComponent]
