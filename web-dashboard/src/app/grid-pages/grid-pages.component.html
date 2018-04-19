@@ -4,7 +4,11 @@
   <ag-grid-angular 
     style="width: 500px; height: 500px;" 
     class="ag-theme-balham"
-    [rowData]="rowData" 
+
+    [enableSorting]="true"
+    [enableFilter]="true"
+
+    [rowData]="rowData | async" 
     [columnDefs]="columnDefs"
     >
 </ag-grid-angular>
